@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a api for react todo website",
   "main": "server.js",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
