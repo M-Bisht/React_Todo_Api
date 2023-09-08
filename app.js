@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [process.env.FRONTEND_URI],
-    methods: ["GET", "POST", "PATCH", "DELETE"],
+    methods: ["GET", "POST", "DELETE"],
     credentials: true,
   })
 );
